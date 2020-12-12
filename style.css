@@ -1,0 +1,96 @@
+body{
+    text-align:center;
+}
+#secA img{
+    width: 350px;
+    height: 350px;
+    border-width: 10px;
+    border-color:rosybrown;
+    border-style: groove;
+    padding: 20px;
+    border-radius: 50%;
+}
+#secA{
+    text-align: center;
+    background-color: gold;
+}
+#sec1{
+    text-align: center;
+    background: linear-gradient(orange, aqua, crimson, lavender);
+     z-index: 9;
+    
+    
+    
+}
+#sec1 img{
+    width: 450px;
+    height: 300px;
+    padding: 40px;
+border-style: solid;
+        border-color:darkblue;
+    border-radius: 0px;
+}
+.menu {
+    position: fixed;
+    list-style: none;
+     z-index: 11; 
+     width: 100%
+   
+}
+#secA img{
+    transition: transform .2s;
+}
+#secA img:hover{ 
+    transform: scale(0.9);
+}
+#contact{
+    background-color: lightpink;
+}
+.l:hover{
+    text-decoration: underline;
+    color: darkmagenta;
+    font-size:30px;
+    
+}
+#sec2{
+    background-color: springgreen;
+    
+}
+#sec2 p{
+    color: mediumvioletred;
+    font-style: italic;
+    font-family: fantasy;
+    font-size: 25px;
+        
+}
+.l {
+       background-color: orchid;
+   display: inline;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+#myCarousel{
+   
+   background: linear-gradient(pink, red, blue, green);
+    width: 100%;
+}
+.carousel-inner img{
+   
+   margin-top: 20px;
+        border-radius: 0%;
+    border-color: aquamarine;
+    border-width: thick;
+    border-style: solid;
+    width: 400px;
+    height: 400px;
+}
+.carousel-content p{
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+    font-style: oblique;
+    text-decoration: underline;
+    padding-top: 30px;
+    
+}
